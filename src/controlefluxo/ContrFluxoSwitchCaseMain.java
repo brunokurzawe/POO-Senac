@@ -1,3 +1,5 @@
+package controlefluxo;
+
 public class ContrFluxoSwitchCaseMain {
     public static void main(String[] args) {
 

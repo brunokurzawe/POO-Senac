@@ -1,3 +1,5 @@
+package javabasico;
+
 public class TiposObjetosMain {
 
     public static void main(String[] args) {

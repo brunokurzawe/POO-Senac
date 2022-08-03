@@ -1,3 +1,5 @@
+package javabasico;
+
 public class ConversoesMain {
 
     public static void main(String[] args) {

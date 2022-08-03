@@ -1,3 +1,5 @@
+package controlefluxo;
+
 public class ControleFluxoWhileDoWhile {
 
     public static void main(String[] args) {

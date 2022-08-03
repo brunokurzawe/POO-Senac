@@ -1,3 +1,5 @@
+package javabasico;
+
 public class StringMain {
 
     public static void main(String[] args) {

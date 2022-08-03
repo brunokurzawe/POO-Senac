@@ -1,3 +1,5 @@
+package javabasico;
+
 public class OperadoresMain {
 
 
@@ -31,7 +33,7 @@ public class OperadoresMain {
         int expressao = a + b * 10;
         System.out.println("Expressao: " + expressao);
 
-        int expressao2 = a + b - a / 10;
+        int expressao2 = (a + b - a) / 10;
         System.out.println("Expressao 2: " + expressao2);
 
         System.out.println("######### EXPRESSÕES #########");
