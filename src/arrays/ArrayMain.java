@@ -25,15 +25,18 @@ public class ArrayMain {
         nomesPessoas[2] = "Pedro";
         nomesPessoas[3] = "Dr. Webber";
 
+        for (int i = 0; i < nomesPessoas.length; i++) {
+            System.out.println("Nome pessoa " + i +
+                    " é " + nomesPessoas[i]);
+        }
+
+
         for (int i = nomesPessoas.length - 1; i >= 0; i--) {
             System.out.println("Nome pessoa " + i +
                     " é " + nomesPessoas[i]);
         }
 
-        for (int i = 0; i < nomesPessoas.length; i++) {
-            System.out.println("Nome pessoa " + i +
-                    " é " + nomesPessoas[i]);
-        }
+
 
 
         //Array de double

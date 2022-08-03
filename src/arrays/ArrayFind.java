@@ -7,7 +7,7 @@ public class ArrayFind {
         String[] nomesPessoas = {"L. Hamilton", "A. Albon",
                 "N. Latifi", "M. Verstapen", "G. Russel"};
 
-        String nomeFind = "Latifi";
+        String nomeFind = "on";
 
         for (int i = 0; i < nomesPessoas.length; i++) {
             if (nomesPessoas[i].contains(nomeFind)) {
