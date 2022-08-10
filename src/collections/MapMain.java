@@ -27,13 +27,20 @@ public class MapMain {
             Map.Entry mapElement = (Map.Entry) mapIterator.next();
             System.out.println(mapElement.getKey());
             System.out.println(mapElement.getValue());
+
+            List<Integer> notas = (List<Integer>) mapElement.getValue();
+            Integer soma = 0;
+            for (Integer nota : notas) {
+                soma += nota;
+            }
+            System.out.println(soma / notas.size());
+
         }
 
 
-
-        for (List<Integer> nota : alunos.values()) {
-            System.out.println(nota);
-        }
+//        for (List<Integer> nota : alunos.values()) {
+//            System.out.println(nota);
+//        }
 
 
     }

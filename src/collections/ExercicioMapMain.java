@@ -5,14 +5,8 @@ import java.util.*;
 public class ExercicioMapMain {
 
     public static void main(String[] args) {
-
-
         Map<String, Map<String, List<Integer>>> alunosDisc = new HashMap<>();
-
-
         Map<String, List<Integer>> discNotasAluno01 = new HashMap<>();
-
-
 
         List<Integer> nostasPortAluno01 = new ArrayList<>();
         List<Integer> nostasMateAluno01 = new ArrayList<>();
@@ -52,27 +46,7 @@ public class ExercicioMapMain {
         System.out.println(alunosDisc);
 
 
-//        Iterator mapIterator = alunosDisc.entrySet().iterator();
-//        while (mapIterator.hasNext()) {
-//            Map.Entry mapElement = (Map.Entry) mapIterator.next();
-//            System.out.println(mapElement.getKey());
-//            Iterator mapElementSubIterator = ((Map) mapElement.getValue()).entrySet().iterator();
-//            Integer somaGeral = 0;
-//            while (mapElementSubIterator.hasNext()) {
-//                Map.Entry mapElementSub = (Map.Entry) mapElementSubIterator.next();
-//                System.out.println(mapElementSub.getKey());
-//                List<Integer> notas = (List<Integer>) mapElementSub.getValue();
-//                Integer soma = 0;
-//                for (Integer nota : notas) {
-//                    soma += nota;
-//                }
-//                Integer media = soma / notas.size();
-//                somaGeral += media;
-//                System.out.println("Média da disciplina " + mapElementSub.getKey() + " é " + media);
-//            }
-//            Integer mediaGeral = somaGeral / 3;
-//            System.out.println("Média da geral de " + mapElement.getKey() + " é " + mediaGeral);
-//        }
+
     }
 
 }
