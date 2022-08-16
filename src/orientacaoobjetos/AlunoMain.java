@@ -24,5 +24,7 @@ public class AlunoMain {
         notasMatematica.add(9);
         disciplinas.put("Matematica", notasMatematica);
         aluno01.disciplinasNotas = disciplinas;
+
+        System.out.println(aluno01);
     }
 }

@@ -13,4 +13,15 @@ public class Aluno {
     String endereco;
     Map<String, List<Integer>> disciplinasNotas;
 
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "codigo=" + codigo +
+                ", nome='" + nome + '\'' +
+                ", dataNAscimento=" + dataNAscimento +
+                ", telefone='" + telefone + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", disciplinasNotas=" + disciplinasNotas +
+                '}';
+    }
 }

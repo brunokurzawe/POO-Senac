@@ -28,7 +28,7 @@ public class OperacoesBigDecimalMain {
 
         System.out.println("Divisão");
         BigDecimal divisao = BigDecimal.valueOf(2.00)
-                .divide(BigDecimal.valueOf(4));
+                .divide(BigDecimal.valueOf(1.2),BigDecimal.ROUND_UP);
         System.out.println("Resultado: " + divisao);
 
 
@@ -50,7 +50,7 @@ public class OperacoesBigDecimalMain {
 
         System.out.println("Compara");
         System.out.println(new BigDecimal("2.00")
-                .compareTo(new BigDecimal("2")));
+                .compareTo(new BigDecimal("1.33")));
 
 
     }
